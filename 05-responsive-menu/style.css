@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+figure img{
+    max-width: 70px;
+}
+header{
+padding: 10px 20px;    
+width: 100%;    
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.5s;
+}
+nav>ul{
+    display: flex;
+    gap: 20px;
+    padding: 0 40px;
+    text-transform: capitalize;
+ 
+}
+nav>ul>li>a{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.micon{
+    display: none;
+}

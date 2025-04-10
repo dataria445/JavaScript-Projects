@@ -1,0 +1,26 @@
+@media only screen and (min-width: 200px) and (max-width: 567px ){
+    header{
+      padding: 10px 20px;  
+    }
+    nav{
+        position: fixed;
+        width: 90%;
+        top:12%;
+        height: 100vh;
+        left: -100%;
+        background-color: azure;
+        transition: 0.5s;
+    }
+    nav>ul{
+        flex-direction: column;
+    }
+    nav>ul{
+        padding: 20px 10px  ;
+    }
+    .micon{
+        display: block;
+    }
+    .showmenu{
+        left: 0%;
+    }
+}
