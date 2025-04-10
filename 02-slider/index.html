@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="home-demo">
+        <h3>Carousel</h3>
+        <div class="owl-carousel owl-theme" id="product-slider">
+          <div class="item"> <h2>Swipe</h2>   </div>
+          <div class="item">  <h2>Drag</h2>    </div>
+          <div class="item">  <h2>Responsive</h2>  </div>
+          <div class="item">  <h2>CSS3</h2>   </div>
+          <div class="item">  <h2>Fast</h2> </div>
+          <div class="item"> <h2>Easy</h2> </div>
+          <div class="item">  <h2>Free</h2> </div>
+          <div class="item"> <h2>Upgradable</h2> </div>
+          <div class="item"> <h2>Tons of options</h2>     </div>
+         </div>
+      </div>
+      <div class="home-demo">
+        <h3>Carousel</h3>
+        <div class="owl-carousel owl-theme" id="product-slider2">
+          <div class="item item2"> <h2>Swipe</h2>   </div>
+          <div class="item item2" >  <h2>Drag</h2>    </div>
+          <div class="item item2">  <h2>Responsive</h2>  </div>
+          <div class="item item2">  <h2>CSS3</h2>   </div>
+          <div class="item item2">  <h2>Fast</h2> </div>
+          <div class="item item2"> <h2>Easy</h2> </div>
+          <div class="item item2">  <h2>Free</h2> </div>
+          <div class="item item2"> <h2>Upgradable</h2> </div>
+          <div class="item item2"> <h2>Tons of options</h2>     </div>
+         </div>
+      </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="script.js"> </script>
+<script>
+  $('#product-slider').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout: 2000,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+</script>
+<script>
+    $('#product-slider2').owlCarousel({
+      loop:true,
+      margin:10,
+      autoplay:1000,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:4
+          }
+      }
+  })
+  
+  </script>
+</html>
