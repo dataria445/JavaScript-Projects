@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.faqitem{
+    text-align: center;
+    max-width: 1320px;
+    margin: 50px auto;
+}
+
+.faq-quest{
+    max-width: 1320px;
+    padding: 10px 0;
+    background-color: antiquewhite;
+}
+.faq-ans{
+    max-width: 1320px;
+    padding: 10px 0;
+    display: none;
+}
+.active{
+    display: block;
+    
+}
