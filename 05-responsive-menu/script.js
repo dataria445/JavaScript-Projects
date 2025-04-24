@@ -1,5 +1,5 @@
-let micon=document.querySelector('.micon');
-let nav=document.querySelector("nav");
+let nav=document.querySelector('nav');
+let micon=document.querySelector(".micon");
 micon.addEventListener('click',()=>{
     nav.classList.toggle('showmenu')
     micon.classList.toggle('xa-bars')

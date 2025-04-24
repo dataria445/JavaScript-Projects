@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+input{
+  margin: 50px auto;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button{
+    padding: 10px 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+
+}  

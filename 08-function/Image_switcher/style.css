@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+.img{
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+#img1{
+  width: 300px;
+  height: 300px;
+
+}
+
+#img2{
+    width: 300px;
+    height: 300px;
+  
+  }
+button{
+    padding: 10px 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}  
