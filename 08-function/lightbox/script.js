@@ -1,11 +1,20 @@
-let modal = document.querySelector('.modal');
-let btn = document.querySelector('#btn'); 
-let closeBtn = document.querySelector('.modal h2 span');
+let galleryParent = document.querySelector('.gallery');
+let modeloverlayElement = document.querySelector('.modeloverlay');
+let modeldivElement= document.querySelector('.model'); 
+let modelImg= document.querySelector('.model img');
+let closeBtn = document.querySelector(".model span");
 
-btn.addEventListener('click', () => {
-  modal.classList.add('modalshow');
-  });
+galleryParent.addEventListener('click', (e) => {
+ if(e.target.tagName == "IMG"){
+  modeloverlayElement.classList.add('modeloverlay,modeloverlayshow')
+  modeldivElement.classList.add('modelshow')
+  modelImg.src = e.target.src
+ }
+  })
 
-closeBtn.addEventListener('click', () => {
-   modal.classList.remove('modalshow');
-});
+closeBtn.addEventListener('click',()=>{
+  modeloverlayElement.classList.remove('modeloverlayshow')
+  modeldivElement.classList.remove('modelshow')
+  console.log(e);
+  
+})
